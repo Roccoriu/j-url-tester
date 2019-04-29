@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="link-checker:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/link_checker_jar</output-path>
+    <root id="archive" name="link-checker.jar">
+      <element id="module-output" name="link-checker" />
+    </root>
+  </artifact>
+</component>
