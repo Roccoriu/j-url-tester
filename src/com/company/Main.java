@@ -74,7 +74,7 @@ public class Main {
     public static void main(String[] args) {
         ArrayList<String> links = new ArrayList<>();
         //String file = args[0];
-        String file = "./ps_get_bookmark_links/test.txt";
+        String file = args[0];
         try (Scanner s = new Scanner(new FileReader(file))) {
             while (s.hasNext()) {
                 links.add(s.nextLine());
