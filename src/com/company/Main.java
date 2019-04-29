@@ -11,8 +11,8 @@ public class Main {
 
     public static void main(String[] args) {
         ArrayList<String> links = new ArrayList<>();
-        //String file = args[0];
-        String file = "./ps_get_bookmark_links/test.txt";//args[0];
+        String file = args[0];
+        //String file = "./ps_get_bookmark_links/test.txt";
         try (Scanner s = new Scanner(new FileReader(file))) {
             while (s.hasNext()) {
                 links.add(s.nextLine());
